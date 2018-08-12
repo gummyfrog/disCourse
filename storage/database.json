@@ -1,0 +1,187 @@
+{
+  "items" : [
+    {
+      "type" : "SEED",
+      "yields" : [
+        {
+          "name" : "Wheat",
+          "min" : 2,
+          "max" : 7
+        }
+      ],
+      "growTime" : 1,
+      "buyPrice" : 2,
+      "sellPrice" : 1,
+      "name" : "Wheat Seed",
+      "plural" : "Wheat Seeds",
+      "description" : "Wow, these are seeds that make Wheat."
+    },
+    {
+      "type" : "CROP",
+      "buyPrice" : 20,
+      "sellPrice" : 15,
+      "name" : "Wheat",
+      "plural" : "Wheat",
+      "description" : "Wow, this is Wheat!"
+    },
+    {
+      "type" : "SEED",
+      "yields" : [
+        {
+          "name" : "Tomato",
+          "min" : 3,
+          "max" : 7
+        },
+        {
+          "name" : "Tomato Seed",
+          "min" : 0,
+          "max" : 2
+        }
+      ],
+      "growTime" : 6,
+      "buyPrice" : 90,
+      "sellPrice" : 20,
+      "name" : "Tomato Seed",
+      "plural" : "Tomato Seeds",
+      "description" : "Tomato Seeds that grow into Tomatoes."
+    },
+    {
+      "type" : "CROP",
+      "buyPrice" : 110,
+      "sellPrice" : 100,
+      "name" : "Tomato",
+      "plural" : "Tomatoes",
+      "description" : "Big Red Tomatoes."
+    },
+    {
+      "type" : "SEED",
+      "yields" : [
+        {
+          "name" : "Rock",
+          "min" : 15,
+          "max" : 30
+        }
+      ],
+      "growTime" : 30,
+      "buyPrice" : 10,
+      "sellPrice" : 2,
+      "name" : "Rock Seed",
+      "plural" : "Rock Seeds",
+      "description" : "These seeds grow into Big Rocks."
+    },
+    {
+      "type" : "CROP",
+      "buyPrice" : 50,
+      "sellPrice" : 25,
+      "name" : "Rock",
+      "plural" : "Rocks",
+      "description" : "Rocks! Goes great with Salad."
+    },
+    {
+      "type" : "SEED",
+      "yields" : [
+        {
+          "name" : "Bean",
+          "min" : 5,
+          "max" : 30
+        },
+        {
+          "name" : "Solar Bean",
+          "min" : 0,
+          "max" : 3
+        },
+        {
+          "name" : "Baked Bean",
+          "min" : 0,
+          "max" : 13
+        },
+        {
+          "name" : "Magic Bean",
+          "min" : 0,
+          "max" : 2
+        }
+      ],
+      "growTime" : 2,
+      "buyPrice" : 120,
+      "sellPrice" : 70,
+      "name" : "Bean Starter",
+      "plural" : "Bean Starters",
+      "description" : "Beans........."
+    },
+    {
+      "type" : "CROP",
+      "buyPrice" : 150,
+      "sellPrice" : 40,
+      "name" : "Bean",
+      "plural" : "Beans",
+      "description" : "Just normal beans."
+    },
+    {
+      "type" : "CROP",
+      "buyPrice" : 10000,
+      "sellPrice" : 200,
+      "name" : "Magic Bean",
+      "plural" : "Magic Beans",
+      "description" : "Glowing Beans."
+    },
+    {
+      "type" : "CROP",
+      "buyPrice" : 10000,
+      "sellPrice" : 100,
+      "name" : "Solar Bean",
+      "plural" : "Solar Beans",
+      "description" : "Celestial Beans."
+    },
+    {
+      "type" : "CROP",
+      "buyPrice" : 10000,
+      "sellPrice" : 90,
+      "name" : "Baked Bean",
+      "plural" : "Baked Beans",
+      "description" : "Baked Beans........"
+    },
+    {
+      "type" : "CROP",
+      "buyPrice" : 2000,
+      "sellPrice" : 90,
+      "name" : "Corn",
+      "plural" : "Corn",
+      "description" : "Delicious Corn!"
+    }
+  ],
+  "stock" : [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    9
+  ],
+  "recipes" : [
+    {
+      "name" : "Can of Baked Beans",
+      "description" : "Good for you.",
+      "bonuses" : {
+        "harvest" : {
+          "duration" : 4,
+          "bonus" : 10
+        },
+        "exp" : {
+          "duration" : 4,
+          "bonus" : 10
+        },
+        "planting" : {
+          "duration" : 4,
+          "bonus" : 10
+        }
+      },
+      "ingredients" : [
+        {
+          "Baked Bean" : "10"
+        }
+      ]
+    }
+  ]
+}
